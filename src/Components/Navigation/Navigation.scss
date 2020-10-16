@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: green;
+  color: #fff;
+  padding: 20px;
+  .logo {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .nav-links {
+    .link {
+      text-decoration: none;
+      margin-left: 10px;
+    }
+  }
+}
